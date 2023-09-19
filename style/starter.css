@@ -1,3 +1,8 @@
-.wrapper {
-    position: center;
+.heading1 { 
+    align-self: center;
+    grid-column: 1/4;
+    font-size: 50px;
+    align-items: start;
+    justify-self: center;
+    color: black;
 }
