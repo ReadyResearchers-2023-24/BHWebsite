@@ -1,0 +1,16 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    /*Shift the whole grid to the left of the page*/
+    margin-left: 150px;
+}
+
+.heading1 { 
+    align-self: center;
+    grid-column: 1/4;
+    font-size: 50px;
+    align-items: center;
+    justify-self: center;
+    color: black;
+}
