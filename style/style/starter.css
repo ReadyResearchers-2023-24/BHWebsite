@@ -5,6 +5,7 @@
     grid-auto-rows: minmax(100px, auto);
     /*Shift the whole grid to the left of the page*/
     margin-left: 150px;
+    justify-content: center;
 }
 
 /*Creating grid for the topics*/
@@ -18,11 +19,13 @@
 }
 
 .stereotypes {
-    justify-self: center;
+    background-position: center;
+    grid-column: 1/2;
+}
+
+justify-self: center;
     grid-column: 1/2;
     align-items: start;
     align-self: center;
     object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-}
+    width: 500px;
