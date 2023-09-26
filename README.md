@@ -8,6 +8,11 @@ The motivation for this project is to create one website where people can learn 
 
 ## Technical Details
 
+## Source Code
+- HTML
+- CSS
+- Javascript and/or Python
+
 ## Future Plans
 - Build a (AI library) search engine with either JavaScrpit or Python
 - Add an about me section
