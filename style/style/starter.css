@@ -33,6 +33,7 @@ input[type=text] {
     /*Shift the whole grid to the left of the page*/
     margin-left: 150px;
     justify-content: center;
+    
 }
 
 .flag {
@@ -40,7 +41,7 @@ input[type=text] {
     height: 1333;
     max-width: 799px, 200vw, 100vw;
     display: block;
-
+    padding-right: 60px;
 }
 
 /*Creating grid for the topics*/
@@ -58,10 +59,3 @@ input[type=text] {
     grid-column: 4/4;
 
 }
-
-justify-self: center;
-    grid-column: 1/2;
-    align-items: start;
-    align-self: center;
-    object-fit: cover;
-    width: 500px;
