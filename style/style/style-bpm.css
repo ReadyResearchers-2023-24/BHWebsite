@@ -1,4 +1,4 @@
-/* For The Black Panther Movement page*/
+/* Black Panther Movement page*/
 
 h1 {
     font-size: 60px;
@@ -7,4 +7,50 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.bobby{
+    float: left;
+    padding: 0 0 20px 20px;
+}
+.binfo{
+    padding-right: 20px;
+    right: 40px;
+}
+.huey{
+    float: left;
+    padding: 0 0 20px 20px;
+}
+.cal{
+    float: right;
+    padding: 0 0 20px 20px;
+}
+.fred{
+    float: left;
+    padding: 0 0 20px 20px;
+}
+
+.norma{
+    float: right;
+    padding: 0 0 20px 20px;
+}
+.manifesto{
+    float: right;
+    padding: 0 0 20px 20px;
+}
+.rules{
+    float: left;
+    padding: 0 0 20px 20px;
+}
+.breakfast{
+    float: right;
+    padding: 0 0 20px 20px;
+}
+.child{
+    float: left;
+    padding: 0 0 20px 20px;
+}
+.cell{
+    float: right;
+    padding: 0 0 20px 20px;
 }
