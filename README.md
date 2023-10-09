@@ -22,6 +22,6 @@ The website is going to start with a starting page with the title and under it i
 - Javascript
 
 ## Future Plans
-- Build a search engine with either JavaScrpit or Python
+- Build a search engine with JavaScrpit
 - Further website design
 - Add videos for engagement and/or quizes and/or games
