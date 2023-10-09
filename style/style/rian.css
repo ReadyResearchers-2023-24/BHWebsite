@@ -1,1 +1,161 @@
-/*  */
+/* About Rian */
+html {
+    background: tan;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px
+}
+
+h3 {
+    
+}
+
+#heading {
+    text-align: center;
+    background: #4B6F44; /*sienna;*/
+}
+
+#headshot {
+    width: 40%;
+    height: 40%;
+}
+
+#wrapper {
+}
+
+#info {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#photo{
+    text-align: center;
+    border: 5px green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/*colums all together
+#wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: 33% 33% 33%;
+    text-align: center;
+}*/
+
+/*colum 1*/
+/*#list {
+    float:left;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}*/
+
+/*colum 2*/
+/*#info {
+    float:left;
+    width:180px;
+    margin-left:20px;
+}*/
+
+/*colum 3*/
+/*
+#headshot {
+    float:right;
+    width:180px;
+    position: fixed
+}*/
+
+#topics {
+    border-style: solid;
+    border-width: medium;
+    box-sizing: border-box;
+    border-color: sienna;
+    width: 15%;
+    float: left;
+    font-size: 20px;
+    position: relative;
+    left:80px;
+    top: 70px;
+    text-align: center;
+}
+#title {
+    text-align: center;
+    columns: 10px 1;
+    list-style-position: inside;
+    float: right;
+    position: relative;
+    left: 120px;
+    font-size: 17px;
+}
+
+/*
+#column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    flex: 50%;
+    text-align: center;
+}
+
+#row {
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 25%;
+    
+}
+.column {
+    float: left;
+}
+
+.middle {
+    width: 50%;
+}
+
+*/
+.logo {
+    width: 4px;
+    height: 20px;
+}
+
+/*
+1. Create 3 colums
+2. Make the board number elements clickable
+3. Resize headshot picture and place in the 3rd column
+4. Make board and headshot stay on screen wven when scrolling
+
+Do a 3x3 grid make it fixed.
+*/
+
+
+/* Responsive layout - when the screen is less than 600px wide, 
+make the two columns stack on top of each other instead of next to 
+each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    #topics {
+    }
+  }
