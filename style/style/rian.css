@@ -1,6 +1,6 @@
 /* About Rian */
 html {
-    background: tan;
+    background: grey;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h3 {
 
 #heading {
     text-align: center;
-    background: #4B6F44; /*sienna;*/
+    background: sienna; /*sienna;*/
 }
 
 #headshot {

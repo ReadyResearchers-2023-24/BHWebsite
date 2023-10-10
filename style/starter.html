@@ -78,25 +78,23 @@
     </div>
     <!-- Feedback Form -->
     <div class="form">
-        <form action="mailto:rian.watson32@gmail.com" method="post" enctype="text/plain"></form>
+        <form action="mailto:rian.watson32@gmail.com" method="POST" enctype="text/plain" name = "EmailForm"></form>
             <fieldset>
                 <legend>Feedback Form: What are your thoughts about the website?</legend>
                 <p>
-                    First and Last name: <input type = "text" name = "fname" />
+                    First and Last name: <input type = "text" id = "name" name = "name">
                 </p>
-             
-                <p>
 
                 <p>
                     Email <input type = "text" name = "ID" />
                 </p>
              
-                <p>
-                    What are your thoughts about the website?: <input type = "text" name = "phone" />
-                </p>
+                <label for="ContactCommentt">Message:</label><br>
+                <!--For the message box-->
+                <textarea id=”ContactCommentt” rows=”6″ cols=”20″></textarea>
              
                 <p>
-                  <input type = "submit" name = "submit" value = "Submit" />
+                  <input type = "submit" name = "Submit" value = "Submit" />
                 </p>
             </fieldset>
         </form>
