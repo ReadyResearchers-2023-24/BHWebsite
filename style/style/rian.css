@@ -1,6 +1,6 @@
 /* About Rian */
 html {
-    background: grey;
+    background:grey;
 }
 
 h1 {
@@ -26,6 +26,10 @@ h3 {
 }
 
 #wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 10px;
 }
 
 #info {

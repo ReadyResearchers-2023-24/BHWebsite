@@ -18,12 +18,20 @@ input[type=text] {
 /*Grid for topics*/
 .wrapper {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    margin: 0 auto;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    column-gap: 5%;
     grid-auto-rows: minmax(10px, auto);
     padding: 10px;
     /*Shift the whole grid to the left of the page*/
-    margin-left: 150px;
+
     justify-content: center;
+    max-width: 95vw;    
+}
+
+.wrapper img {
+    height: 100%;
+    width: 100%;
 }
 
 /*Grid for starter heading*/
