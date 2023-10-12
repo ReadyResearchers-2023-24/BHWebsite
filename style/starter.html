@@ -3,12 +3,16 @@
   <head>
     <title><center>Black History Website</center></title>
     <link href="style/starter.css" rel="stylesheet">
+    <!--For Feedback form-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form">
   </head>
   <body>
     <div class = "heading">
         <!--Heading Picture-->
         <div class = "flag">
-            <img src="img/.png" alt="Pan African Flag within Africa">
+            <img src="../starterimg/flag.png" alt="Pan-African Flag">
         </div>
         <!-- Website heading -->
         <div class = "heading1">
@@ -73,13 +77,6 @@
                 <center><img src="../starterimg/musa.jpeg" alt="Mansa Musa"></center>
             </div>
         </div>
-        <!-- Sarah Baartman -->
-        <div class= "heading8">
-            <h2><center>Sarah Baartman</center></h2>
-            <div class="sarahimg">
-                <center><img src="../starterimg/sarah.png" alt="Sarah Baartman"></center>
-            </div>
-        </div>
         <!-- Pan-African Flag -->
         <div class= "paf">
             <h2><center>Pan-African Flag</center></h2>
@@ -87,10 +84,52 @@
                 <center><img src="../starterimg/paf.png" alt="Pan African Flag"></center>
             </div>
         </div>
+        <!-- Sarah Baartman -->
+        <div class= "heading8">
+            <h2><center>Sarah Baartman</center></h2>
+            <div class="sarahimg">
+                <center><img src="../starterimg/sarah.png" alt="Sarah Baartman"></center>
+            </div>
+        </div>
+        <!-- Slave Trade -->
+        <div class= "heading8">
+            <h2><center>Slave Trade</center></h2>
+            <div class="tradeimg">
+                <center><img src="../starterimg/trade.jpeg" alt="Sarah Baartman"></center>
+            </div>
+        </div>
     </div>
     <div class="rian">
         <a href="rian.html"> <center><u>Website Creator</u></center> </a>
     </div>
+<!-- Feedback Form -->
+    <div class="form">
+        <form method="POST" class = "gform" data-email = "rian.watson32@gmail.com"
+        action="https://script.google.com/macros/s/AKfycbw-K4iJUZvItfxACRthATm8HbiWKB3ZuVqajwFODp9NFVB3Cbq3mn7bCX1CJbcFjHTYxA/exec">
+            <fieldset>
+                <legend>Feedback Form: What are your thoughts about the website?</legend>
+                <p>
+                    First and Last name: <input type = "text" id = "name" name = "name">
+                </p>
 
+                <p>
+                    Email <input type = "text" name = "ID" />
+                </p>
+            
+                <label for="ContactCommentt">Message:</label><br>
+                <!--For the message box-->
+                <textarea id=”ContactCommentt” rows=”6″ cols=”20″></textarea>
+            
+                <p>
+                <input type = "submit" name = "Submit" value = "Submit" />
+                </p>
+            </fieldset>
+            <!-- Opens the mail app with my email already set in who to send to
+            <form method= "get" action= "mailto:rian.watson32@gmail.com">
+                <input type="submit">
+            </form>
+            -->
+        </form>
+    </div>
   </body>
 </html>
