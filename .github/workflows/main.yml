@@ -1,0 +1,26 @@
+# Site Workflow
+name: build
+
+# Mostly concentrated on the main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# Create one single job: Perform all necessary checks
+jobs:
+  build:
+    # Use the latest version of Ubuntu on Microsoft Azure
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Performs all actions on different versions of Python
+        python-version: ["3.10"]
+    # Define the workflow steps: One step
+    steps:
+    # Checkout the code of the repository
+        - name: Check out Repository Code
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
