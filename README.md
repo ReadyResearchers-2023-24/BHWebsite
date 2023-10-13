@@ -17,9 +17,9 @@ Another project I have worked on is my portfolio. It includes a mission statemen
 The website is going to start with a starting page with the title and under it in 4-5 columns, the different topics. The topics will have the name of it along with a picture for visual purposes. Each picture will be clickable which when clicked on, you will be sent to another page about that specific topic. The starting page will also have a search engine so you can look up a topic title and it will appear so it is easier for the user to find what they are looking for. Toward the end of the topics, there will be an option for the users to get to know about the creator of the website which is me. They will know about me, my involvement, and my reason and goals for the website. Under that, there will be a feedback form for users to submit their thoughts and opinions on the website so I know what edits I should make within the site or what to add and/or take out.
 
 ## Languages used
-- HTML
-- CSS
-- Javascript
+- HTML --> Input the information onto the site.
+- CSS --> For styling and poitioning
+- Javascript --> For funcationalities
 
 ## Future Plans
 - Build a search engine with JavaScrpit
