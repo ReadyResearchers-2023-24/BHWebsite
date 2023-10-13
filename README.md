@@ -8,9 +8,9 @@ The motivation for this project is to help not only the Black community, but all
 A project I have worked on is a prototype for this project. It has a starting page with topics that are clickable and will take you to a separate page with information related to the topic clicked on. The clicked-on page had information related to the topic and pictures for visual purposes.
 
 ---Other Projects---
-One project I have worked on is a cooking website for a catering business called BoomGrillx founded and run by Adekoyejo Balogun, another student on campus. The website included a starting page with his brand log and two other pictures below it that when clicked on will go to another page. One is a bishop about him and the other includes pictures of a few dishes he has made, the ingredients, along instructions.
+One project I have worked on is a cooking website for a catering business called BoomGrillx founded and run by Adekoyejo Balogun, a student at Allegheny College. The website included a starting page with his brand log and two other pictures below it that when clicked on will take you to another page. One is a bio page about him, his background, and how and why he started this brand. The other includes pictures of a few dishes he has made, the ingredients, and along with instructions on how to make them.
 
-Another project I have worked on is my portfolio. It includes a mission statement, pictures of the languages I have coded with, work samples with links, and more.
+Another project I have worked on is my portfolio. It includes a section where it list the different topics, a mission statement, the link to my resume, pictures of the languages I experience with, work samples with links, and more. The link to the website is can be found here: https://watson02.github.io
 
 add links ^^^
 
