@@ -23,13 +23,11 @@ The website is going to start with a starting page with the title and under it i
 - Javascript --> For funcationalities
 
 ## How to Run the Code
-Go into
+To access the website, you first will go into the style folder then you will see three HTML files, bpm, rian, and starter. You then want to click on the starter.html file which will lead you to the home page of the website.
 
 ## Future Plans
 - Build a search engine with JavaScrpit
 - Further website design
 - Add videos for engagement and/or quizes and/or games
 
-
-
-put in a check for mark down linting
+## Notable Ideas for Features
