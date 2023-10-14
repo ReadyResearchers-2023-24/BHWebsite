@@ -4,7 +4,7 @@
 
 * [Intro/Motivation](#Intro/Motivation)
 * [Realted Work](#Realted-Work)
-  +[Other Projects](#Other-Projects)
+  + [Other Projects](#Other-Projects)
 * [Technical Details](#Technical-Details)
 * [Languages Used](#Languages-Used)
 * [Accessing the Assignment](#Accessing-the-Assignment)
