@@ -20,8 +20,8 @@ The Black Panther Movement page has a tab bar at the very top and under it, a ti
 
 ## Languages used
 - HTML --> Input the information onto the site.
-- CSS --> For styling and poitioning
-- Javascript --> For funcationalities
+- CSS --> For styling and positioning
+- Javascript --> For functionalities
 
 ## How to Run the Code
 To access the website, you first will go into the style folder then you will see three HTML files, bpm, rian, and starter. You then want to click on the starter.html file which will lead you to the home page of the website.
