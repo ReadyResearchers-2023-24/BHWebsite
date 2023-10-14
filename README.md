@@ -13,17 +13,15 @@
 
 ## Intro/Motivation
 
-The motivation for this project is to help not only the Black community, but all communities learn about Black history and that there is more to it than just enslavement. This website will teach people facts and information that are not taught in schools so that they can look at Black history in a different light. Another reason is to create one website where people can learn about Black history. When doing papers and research people have to jump from site to site to get information about one thing. However, the website I am creating will reduce the amount of time people will spend looking up different websites. I also want to make this as much information as possible by putting non-well-known facts about Black history within the website.
+The motivation for this project is to help not only the Black community, but all communities learn about Black history and that there is more to it than just enslavement. This website will teach people (hidden) facts and information that are not taught in schools or that are not elaborated. The goal is to have users look at Black history in a different light if they are not well-educated on the topic. The main way I plan to accomplish this is by making this as informational as possible by putting non-well-known facts about Black history within the website. Another reason is to create one website where people can find all the facts they need about a specific topic within Black history. When doing papers and research people have to jump from site to site to get information about one topic. However, this website I am creating will reduce the amount of time people will spend looking up different websites and skimming through them to find what they need. I want to make this as informational as possible by putting non-well-known facts about Black history within the website.
 
 ## Realted Work
 
-A project I have worked on is a prototype for this project. It has a starting page with one of the three topics that are clickable and will take you to a separate page with information related to the topic clicked on. That topic is The Black Panther Movement. The clicked-on page has information related to the subject and pictures for visual purposes. A way to access the prototype is by going to cmpsc-580-Allegheny-College-Spring-2023/assignment07-watson02 repository. Then you will click on the style folder and you will see two HTML files, index and index-move. You will click on index.HTML for the home page.
+A project I have worked on is a prototype for this project. It has a starting page with one of the three topics that are clickable and will take you to a separate page with information related to the topic clicked on. That topic is The Black Panther Movement. The clicked-on page has information related to the subject and pictures for visual purposes. A way to access the prototype is by going to `cmpsc-580-Allegheny-College-Spring-2023/assignment07-watson02` repository. Then you will click on the style folder and you will see two HTML files, `index` and `index-move`. You will click on `index.HTML` for the home page.
 
 ### Other Projects
 
-One project I have worked on is a cooking website for a catering business called BoomGrillx founded and run by Adekoyejo Balogun, a student at Allegheny College. The website included a starting page with his brand log and two other pictures below it that when clicked on will take you to another page. One is a bio page about him, his background, and how and why he started this brand. The other includes pictures of a few dishes he has made, the ingredients, and along with instructions on how to make them.
-
-Another project I have worked on is my portfolio. It includes a section that lists the different topics, a mission statement, the link to my resume, pictures of the languages I experience with, work samples with links, and more. The link to the website can be found here: https://watson02.github.io.
+One project I have worked on is my portfolio. It includes a section that lists the different topics, a mission statement, the link to my resume, pictures of the languages I experience with, work samples with links, and more. The link to the website can be found here: https://watson02.github.io.
 
 
 ## Technical Details
@@ -34,9 +32,9 @@ The Black Panther Movement page has a tab bar at the very top and under it, a ti
 
 ## Languages Used
 
-- HTML --> Input the information onto the site.
-- CSS --> For styling and positioning
-- Javascript and/or Python --> For functionalities
+- `HTML` --> Input the information onto the site.
+- `CSS` --> For styling and positioning
+- `Javascript` and/or `Python` --> For functionalities
 
 ## Accessing the Assignment
 
