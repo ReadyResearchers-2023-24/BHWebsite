@@ -21,27 +21,34 @@ The Black Panther Movement page has a tab bar at the very top and under it, a ti
 ## Languages used
 - HTML --> Input the information onto the site.
 - CSS --> For styling and positioning
-- Javascript --> For functionalities
+- Javascript and/or Python --> For functionalities
 
 ## Accessing the Assignment
 To access this website you should be in the GitHub repository with a name
-```
-ReadyResearchers-2023-24/BHWebsite
-```
+`ReadyResearchers-2023-24/BHWebsite`
 Click the "Clone or download" button that is green and, after ensuring that you have selected "Clone with SSH", please copy this command to your clipboard:
-```
-git@github.com:ReadyResearchers-2023-24/BHWebsite.git
-```
+`git@github.com:ReadyResearchers-2023-24/BHWebsite.git`
 From there you want go into your terminal and type in the command `git clone` and then paste the command that you just copied. The whole command should look like this:
 ```
 git clone git@github.com:ReadyResearchers-2023-24/BHWebsite.git
 ```
 Then press Enter/Return.
 
-After this command finishes, you can use cd to change into the new directory. If you want to "go back" one directory from your current location, then you can type the command `cd ..`. Finally, please continue to use the cd and ls commands to explore the files that you automatically downloaded from GitHub.
+Next, you can type the either `ls` (on either MacOS or Linux) or `dir` (on Windows 10 Pro or Windows 10 Enterprise) and see that there are no filesAfter this command finishes, you can use `cd` to change into the new directory. If you want to "go back" one directory from your current location, then you can type the command `cd ..`. Finally, please continue to use the cd and ls commands to explore the files that you automatically downloaded from GitHub.
 
-## Installing Programs
+## Installing Python
 
+If you have not done so already, then, in order to implement a full-fledge
+Python program, you need to install the [Poetry
+tool](https://python-poetry.org/docs/) for dependency management and packaging
+of Python programs. After ensuring that you have Python 3.10 installed on your
+laptop through Pyenv by typing in the command `python --version` or `python3 --version`, please follow the installation instructions for Poetry.
+For instance, you are using either MacOS or Linux you need to type the
+following command in your terminal window `curl -sSL
+https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py |
+python`. Importantly, this command will only work if you have already installed
+a program called `curl`. If you are using Windows 10 Pro then you will need to
+follow the PowerShell installation instructions on Poetry's web site.
 
 
 To access the website, you first will go into the style folder then you will see three HTML files, bpm, rian, and starter. You then want to click on the starter.html file which will lead you to the home page of the website.
