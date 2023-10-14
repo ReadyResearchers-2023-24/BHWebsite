@@ -9,7 +9,7 @@
 * [Languages Used](#Languages-Used)
 * [Accessing the Assignment](#Accessing-the-Assignment)
 * [Installing Python](#Installing-Python)
-* [Future Plans/Ideas](#Future Plans/Ideas)
+* [Future Plans/Ideas](#Future-Plans/Ideas)
 
 ## Intro/Motivation
 
