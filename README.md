@@ -71,4 +71,4 @@ To access the website, you first will go into the style folder then you will see
 - Build a search engine
 - Further website design
 - Create more functionalties
-- Add was for engagement (e.g. videos, quizes, games)
+- Add features for engagement (e.g. videos, quizes, games)
