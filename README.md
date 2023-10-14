@@ -7,7 +7,7 @@ The motivation for this project is to help not only the Black community, but all
 ## Realted Work
 A project I have worked on is a prototype for this project. It has a starting page with one of the three topics that are clickable and will take you to a separate page with information related to the topic clicked on. That topic is The Black Panther Movement. The clicked-on page has information related to the subject and pictures for visual purposes. A way to access the prototype is by going to cmpsc-580-Allegheny-College-Spring-2023/assignment07-watson02 repository. Then you will click on the style folder and you will see two HTML files, index and index-move. You will click on index.HTML for the home page.
 
-###Other Projects
+---Other Projects---
 One project I have worked on is a cooking website for a catering business called BoomGrillx founded and run by Adekoyejo Balogun, a student at Allegheny College. The website included a starting page with his brand log and two other pictures below it that when clicked on will take you to another page. One is a bio page about him, his background, and how and why he started this brand. The other includes pictures of a few dishes he has made, the ingredients, and along with instructions on how to make them.
 
 Another project I have worked on is my portfolio. It includes a section that lists the different topics, a mission statement, the link to my resume, pictures of the languages I experience with, work samples with links, and more. The link to the website can be found here: https://watson02.github.io.
@@ -31,4 +31,3 @@ To access the website, you first will go into the style folder then you will see
 - Further website design
 - Create more functionalties
 - Add videos for engagement and/or quizes and/or games
-
