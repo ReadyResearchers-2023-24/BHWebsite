@@ -7,7 +7,7 @@ The motivation for this project is to help not only the Black community, but all
 ## Realted Work
 A project I have worked on is a prototype for this project. It has a starting page with one of the three topics that are clickable and will take you to a separate page with information related to the topic clicked on. That topic is The Black Panther Movement. The clicked-on page has information related to the subject and pictures for visual purposes. A way to access the prototype is by going to cmpsc-580-Allegheny-College-Spring-2023/assignment07-watson02 repository. Then you will click on the style folder and you will see two HTML files, index and index-move. You will click on index.HTML for the home page.
 
----Other Projects---
+### Other Projects
 One project I have worked on is a cooking website for a catering business called BoomGrillx founded and run by Adekoyejo Balogun, a student at Allegheny College. The website included a starting page with his brand log and two other pictures below it that when clicked on will take you to another page. One is a bio page about him, his background, and how and why he started this brand. The other includes pictures of a few dishes he has made, the ingredients, and along with instructions on how to make them.
 
 Another project I have worked on is my portfolio. It includes a section that lists the different topics, a mission statement, the link to my resume, pictures of the languages I experience with, work samples with links, and more. The link to the website can be found here: https://watson02.github.io.
@@ -23,7 +23,27 @@ The Black Panther Movement page has a tab bar at the very top and under it, a ti
 - CSS --> For styling and positioning
 - Javascript --> For functionalities
 
-## How to Run the Code
+## Accessing the Assignment
+To access this website you should be in the GitHub repository with a name
+```
+ReadyResearchers-2023-24/BHWebsite
+```
+Click the "Clone or download" button that is green and, after ensuring that you have selected "Clone with SSH", please copy this command to your clipboard:
+```
+git@github.com:ReadyResearchers-2023-24/BHWebsite.git
+```
+From there you want go into your terminal and type in the command `git clone` and then paste the command that you just copied. The whole command should look like this:
+```
+git clone git@github.com:ReadyResearchers-2023-24/BHWebsite.git
+```
+Then press Enter/Return.
+
+After this command finishes, you can use cd to change into the new directory. If you want to "go back" one directory from your current location, then you can type the command `cd ..`. Finally, please continue to use the cd and ls commands to explore the files that you automatically downloaded from GitHub.
+
+## Installing Programs
+
+
+
 To access the website, you first will go into the style folder then you will see three HTML files, bpm, rian, and starter. You then want to click on the starter.html file which will lead you to the home page of the website.
 
 ## Future Plans / Ideas
