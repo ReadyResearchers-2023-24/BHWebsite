@@ -125,22 +125,24 @@
         <form method="POST" class = "gform" data-email = "rian.watson32@gmail.com"
         action="https://script.google.com/macros/s/AKfycbw-K4iJUZvItfxACRthATm8HbiWKB3ZuVqajwFODp9NFVB3Cbq3mn7bCX1CJbcFjHTYxA/exec">
             <fieldset>
-                <legend>Feedback Form: What are your thoughts about the website?</legend>
-                <p>
-                    First and Last name: <input type = "text" id = "name" name = "name">
-                </p>
+                <legend>Contact me: What are your thoughts about the website?</legend>
+                <div class = "box">
+                    <p>
+                        Full name <input type = "text" id = "name" name = "name" placeholder="Enter your name and surname" required="required">
+                    </p>
 
-                <p>
-                    Email <input type = "text" name = "ID" />
-                </p>
-            
-                <label for="ContactCommentt">Message:</label><br>
-                <!--For the message box-->
-                <textarea id=”ContactCommentt” rows=”6″ cols=”20″></textarea>
-            
-                <p>
-                <input type = "submit" name = "Submit" value = "Submit" />
-                </p>
+                    <p>
+                        Email <input type = "text" name = "ID" placeholder="Enter your email address" required="required">
+                    </p>
+                
+                    <label for="ContactCommentt">Message</label><br>
+                    <!--For the message box-->
+                    <textarea id=”ContactCommentt” rows=”6″ cols=”20″ placeholder="Enter your message" required="required"></textarea>
+                
+                    <p>
+                    <input type = "submit" name = "Submit" value = "Submit" />
+                    </p>
+                </div>
             </fieldset>
             <!-- Opens the mail app with my email already set in who to send to
             <form method= "get" action= "mailto:rian.watson32@gmail.com">

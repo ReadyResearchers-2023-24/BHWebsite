@@ -108,3 +108,14 @@ input[type=text] {
 .rian {
     font-size: 30px;
 }
+
+/* Feedback form*/
+.form {
+    font-family: Roboto;
+    border-radius: 5px;
+    padding: 1px 30px;
+}
+
+.box {
+    
+}
