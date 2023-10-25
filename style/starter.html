@@ -11,6 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <!--Button to open and close side bar-->
+    <div class="sidebarbutton">
+        <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+    </div>
     <div class = "heading">
         <!--Heading Picture
         <div class = "flag">
@@ -22,7 +26,7 @@
         </div>
     </div>
 
-    <!-- tab Bar-->
+<!-- tab Bar-->
     <div class = "topbar">
         <a class="active" href="starter.html">Home</a>
         <a href="#1619">1619</a>
@@ -36,8 +40,13 @@
         <a href="#Sarah Baartman">Sarah Baartman</a>
         <a href="#Slave Trade">Slave Trade</a>
     </div>
-    <!--Sidebar-->
-    <div class = "sidebar">
+    <!-- end for tab Bar-->
+
+<!--Sidebar-->
+    <div class = "sidebar" id="thesidebar">
+        <!--Connected to Javascript code-->
+        <!--Makes the side bar open and close-->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a class="active" href="starter.html">Home</a>
         <a href="#1619">1619</a>
         <a href="#Antebellum South">Antebellum South</a>
@@ -50,6 +59,8 @@
         <a href="#Sarah Baartman">Sarah Baartman</a>
         <a href="#Slave Trade">Slave Trade</a>
     </div>
+    <!--end for Sidebar-->
+
      <!-- Link javascript for search bar 
      <script src="style/search.js"></script
      input tag
@@ -68,7 +79,7 @@
         <div class= "as">
             <h2><center>Antebellum South</center></h2>
             <div class="asimg">
-                <center><img src="../starterimg/antebellum.jpg" alt="Antebellum South"></center>
+                <a href="as.html"></a><center><img src="../starterimg/antebellum.jpg" alt="Antebellum South"></center>
             </div>
         </div>
         <!-- BPM Heading -->
@@ -88,15 +99,15 @@
         <!-- Cruel Tools -->
         <div class= "tools">
             <h2><center>Cruel Tools</center></h2>
-            <div class="barrelimg">
-                <center><img src="../starterimg/tools.jpeg" alt="Harriet Tubman"></center>
+            <div class="toolsimg">
+                <a href="tools.html"></a><center><img src="../starterimg/tools.jpeg" alt="Harriet Tubman"></center>
             </div>
         </div>
         <!-- Harriet Tubman -->
         <div class= "harriet">
             <h2><center>Harriet Tubman</center></h2>
             <div class="tubmanimg">
-                <center><img src="../starterimg/tubman.jpg" alt="Harriet Tubman"></center>
+                <a href="tubman.html"></a><center><img src="../starterimg/tubman.jpg" alt="Harriet Tubman"></center>
             </div>
         </div>
         
@@ -104,35 +115,40 @@
         <div class= "heading7">
             <h2><center>Mansa Musa</center></h2>
             <div class="musaimg">
-                <center><img src="../starterimg/musa.jpeg" alt="Mansa Musa"></center>
+                <a href="musa.html"></a><center><img src="../starterimg/musa.jpeg" alt="Mansa Musa"></center>
             </div>
         </div>
         <!-- Pan-African Flag -->
         <div class= "paf">
             <h2><center>Pan-African Flag</center></h2>
             <div class="pafimg">
-                <center><img src="../starterimg/paf.png" alt="Pan African Flag"></center>
+                <a href="paf.html"></a><center><img src="../starterimg/paf.png" alt="Pan African Flag"></center>
             </div>
+            
         </div>
+
         <!-- Sarah Baartman -->
         <div class= "heading8">
             <h2><center>Sarah Baartman</center></h2>
             <div class="sarahimg">
-                <center><img src="../starterimg/sarah.png" alt="Sarah Baartman"></center>
+                <a href="sarah.html"></a><center><img src="../starterimg/sarah.png" alt="Sarah Baartman"></center>
             </div>
         </div>
+        
         <!-- Slave Trade -->
         <div class= "heading8">
             <h2><center>Slave Trade</center></h2>
             <div class="tradeimg">
-                <center><img src="../starterimg/trade.jpeg" alt="Sarah Baartman"></center>
+                <a href="trade.html"></a><center><img src="../starterimg/trade.jpeg" alt="Sarah Baartman"></center>
             </div>
         </div>
     </div>
+
     <!--Rian-->
     <div class="rian">
         <a href="rian.html"> <center><u>Website Creator</u></center> </a>
     </div>
+
 <!-- Feedback Form -->
     <div class="form">
         <form method="POST" class = "gform" data-email = "rian.watson32@gmail.com"
