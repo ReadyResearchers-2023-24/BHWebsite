@@ -36,3 +36,20 @@ h2 {
     color: white;
   }
 /*for search bar*/
+
+/*Grid for content*/
+.wrapper {
+    display: grid;
+    /*margin: 0 auto;*/
+    grid-template-columns: 50% 50%;
+    column-gap: 5%;
+    grid-auto-rows: minmax(10px, auto);
+    padding: 10px;
+    grid-column:1/2;
+    /*Shift the whole grid to the left of the page*/
+
+    justify-content: center;
+    max-width: 95vw;
+    transition: margin-left .5s;    
+}
+/*end Grid for content*/
