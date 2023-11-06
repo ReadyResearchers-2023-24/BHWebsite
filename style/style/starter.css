@@ -38,71 +38,6 @@
   }
 /*end for top bar*/
 
-/*side bar*/
-.sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 160px;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #333;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px; /* Place content 20px from the top */
-}
-
-.sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-    /* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-    color: white;
-}
-
-    /* Position and style the close button (top right corner) */
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-    color: #f1f1f1;
-}
-  
-  /* Position and style the close button (top right corner) */
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-/* The button used to open the sidebar */
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-  }
-  
-  .openbtn:hover {
-    background-color: #444;
-  }
-/*End for side bar*/
-
-
 input[type=text] {
     width: 10%;
     -webkit-transition: width 0.15s ease-in-out;
@@ -113,17 +48,14 @@ input[type=text] {
 /*Grid for topics*/
 .wrapper {
     display: grid;
-    /*margin: 0 auto;*/
-    margin-left: 150px;
+    margin: 0 auto;
+    margin-left: 70px;
     grid-template-columns: 15% 15% 15% 15% 15%;
     column-gap: 5%;
     grid-auto-rows: minmax(10px, auto);
     padding: 10px;
     /*Shift the whole grid to the left of the page*/
 
-    justify-content: center;
-    max-width: 95vw;
-    transition: margin-left .5s;    
 }
 
 .wrapper img {
