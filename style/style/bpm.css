@@ -159,6 +159,19 @@ sidebar is opened */
     padding: 0 0 20px 20px;
 }
 
+/*Photo gallary*/
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  div.scroll-container img {
+    padding: 10px;
+  }
+/*End Photo gallary*/
+
 /*Change in screen layout*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
