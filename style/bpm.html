@@ -1,12 +1,20 @@
 <!-- The Black Panther Movement-->
 <!DOCTYPE html>
 <html lang="en">
+    <!-- logo pictuer
+    <header class = "t-topbar ps-fixed t0 l0 js-topbar">
+        <div class = "s-topbar--container">
+            <a href="starter.html"><img src="../starterimg/logo.png" alt="For the Culture" class = "t-topbar--logo js-gps-track" data-gps-track = "top_nav.click({is_current:false, location:2, destination:8})"></a>
+        </div>
+    </header>-->
     <head>
         <link href="style/bpm.css" rel="stylesheet">
         <title>Black Panther Movement</title>
     </head>
     <body>
-    <!--Sidebar-->
+<!--Background music--> 
+        <embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
+<!--Sidebar-->
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn"
                 onclick="closeNav()">
@@ -48,18 +56,22 @@
         <!--end for Sidebar-->
 
         <!-- Topic Bar-->
-        <div class = "search">
-            <a class="active" href="starter.html">Home</a>
-            <a href="#1619">1619</a>
-            <a href="#Antebellum South">Antebellum South</a>
-            <a href="bpm.html">Black Panther Movement</a>
-            <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
-            <a href="#Cruel Tools">Cruel Tools</a>
-            <a href="#Harriet Tubman">Harriet Tubman</a>
-            <a href="#Mansa Musa">Mansa Musa</a>
-            <a href="#Pan-African Flag">Pan-African Flag</a>
-            <a href="#Sarah Baartman">Sarah Baartman</a>
-            <a href="#Slave Trade">Slave Trade</a>
+        <div id = "subtopnav" onmousedown="startscrolling_subtopnav(event)" onmousemove="scrolling_subtopnav(event)" onmouseup="endsctolling_subtopnav(event)" onclick = "return pellessii(event)">
+            <div class = "search">
+                <div class = "scroll_left_btn" class = "w3-hide-medium w3-hide-small" style = "display: block;">
+                    <a class="active" href="starter.html">Home</a>
+                    <a href="#1619">1619</a>
+                    <a href="#Antebellum South">Antebellum South</a>
+                    <a href="bpm.html">Black Panther Movement</a>
+                    <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
+                    <a href="#Cruel Tools">Cruel Tools</a>
+                    <a href="#Harriet Tubman">Harriet Tubman</a>
+                    <a href="#Mansa Musa">Mansa Musa</a>
+                    <a href="#Pan-African Flag">Pan-African Flag</a>
+                    <a href="#Sarah Baartman">Sarah Baartman</a>
+                    <a href="#Slave Trade">Slave Trade</a>
+                </div>
+            </div>
         </div>
         <!--End of topic bar-->
         
@@ -356,18 +368,36 @@
             grew when John Lennon and Yoko Ono invited Black Panther member, Bobby Seale, to talk on his talk 
             show, The Mike Douglas Show, which was popular at the time.
         </p>
+        
 <!--Photo Gallary-->
         <div class="scroll-container">
-            <img src= "../bpmimg/bpm1.JPG" alt="img1" width="400" height="200">
-            <img src= "../bpmimg/bobby.png" alt="img2" width="400" height="200">
-            <img src= "../bpmimg/huey.png" alt="img3" width="400" height="200">
-            <img src= "../bpmimg/cal.png" alt="img4" width="400" height="200">
-            <img src= "../bpmimg/fred.png" alt="img4" width="400" height="200">
-            <img src= "../bpmimg/norma.png" alt="img4" width="400" height="200">
-            <img src= "../bpmimg/manifesto.png" alt="img4" width="400" height="200">
-            <img src= "../bpmimg/rules.png" alt="img4" width="400" height="200">
-            <img src= "../bpmimg/breakfast.png" alt="img4" width="400" height="200">
-            <img src= "../bpmimg/child.png" alt="img4" width="400" height="200">
-            <img src = "../bpmimg/cell.png"  alt="img4" width="400" height="200">
+            <img src= "../bpmimg/bpm1.JPG" alt="img1" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/bobby.png" alt="img2" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/huey.png" alt="img3" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/cal.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/fred.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/norma.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/manifesto.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/rules.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/breakfast.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src= "../bpmimg/child.png" alt="img4" width="400" height="250" onclick="myFunction(this);">
+            <img src = "../bpmimg/cell.png"  alt="img4" width="400" height="250" onclick="myFunction(this);">
         </div>
+        
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+        </div>
+
+        <script>
+            function myFunction(imgs) {
+              var expandImg = document.getElementById("expandedImg");
+              var imgText = document.getElementById("imgtext");
+              expandImg.src = imgs.src;
+              imgText.innerHTML = imgs.alt;
+              expandImg.parentElement.style.display = "block";
+            }
+        </script>
+        
     </body>

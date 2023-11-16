@@ -14,3 +14,12 @@ function closeNav() {
     document.body.style.backgroundColor = "white";
     }
 // end of side bar
+
+// Photo Gallary
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+    }

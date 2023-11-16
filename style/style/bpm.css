@@ -1,5 +1,6 @@
 /* Black Panther Movement page*/
 
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -59,6 +60,7 @@ h2 {
         in the sidebar */
     transition: 0.5s;
 }
+
 /* The sidebar links */
 .sidebar a {
     padding: 8px 8px 8px 32px;
@@ -165,10 +167,37 @@ div.scroll-container {
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+    margin: 0;
+    position: relative;
   }
 
-  div.scroll-container img {
+div.scroll-container img {
     padding: 10px;
+  }
+
+  /* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
   }
 /*End Photo gallary*/
 
