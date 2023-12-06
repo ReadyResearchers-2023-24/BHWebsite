@@ -11,6 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <div id ="header">
+        <p>words</p>
+        <div id = "logo">
+          <img src="../starterimg/flag.png" alt="Pan-African Flag">
+        </div>
+    </div>
         <!--Heading Picture
         <div class = "flag">
             <img src="../starterimg/flag.png" alt="Pan-African Flag">
@@ -21,25 +27,139 @@
         </div>
 
         <div class = "heading1">
-            <h1> <center>The Culture</center></h1>
+            <h1><center>Black History</center></h1>
+        </div>
+    
+<!-- tab Bar-->
+    <div class = "scroll-top">
+        <div class = "topbar">
+            <a class="active" href="starter.html">Home</a>
+            <a href="#1619">1619</a>
+            <a href="#Antebellum South">Antebellum South</a>
+            <a href="bpm.html">Black Panther Movement</a>
+            <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
+            <a href="#Cruel Tools">Cruel Tools</a>
+            <a href="#Harriet Tubman">Harriet Tubman</a>
+            <a href="#Mansa Musa">Mansa Musa</a>
+            <a href="#Pan-African Flag">Pan-African Flag</a>
+            <a href="#Sarah Baartman">Sarah Baartman</a>
+            <a href="#Slave Trade">Slave Trade</a>
         </div>
     </div>
-
-<!-- tab Bar-->
-    <div class = "topbar">
-        <a class="active" href="starter.html">Home</a>
-        <a href="#1619">1619</a>
-        <a href="#Antebellum South">Antebellum South</a>
-        <a href="bpm.html">Black Panther Movement</a>
-        <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
-        <a href="#Cruel Tools">Cruel Tools</a>
-        <a href="#Harriet Tubman">Harriet Tubman</a>
-        <a href="#Mansa Musa">Mansa Musa</a>
-        <a href="#Pan-African Flag">Pan-African Flag</a>
-        <a href="#Sarah Baartman">Sarah Baartman</a>
-        <a href="#Slave Trade">Slave Trade</a>
-    </div>
     <!-- end for tab Bar-->
+
+<!--Slide show-->
+    <div id="scroll-image">
+        <div id = "scroll-image2">
+            <a href="as.html"><img src="../starterimg/antebellum.jpg" alt="Antebellum South" class="test" /></a>
+            <a href="bpm.html"><img src="../starterimg/bpp.png" alt="Black Panther Movement" class="test" /></a>
+            <a href="tools.html"><img src="../starterimg/tools.jpeg" alt="Harriet Tubman" class="test" /></a>
+        </div>
+    </div>
+    <script>
+        startImageTransition(); 
+        
+        function startImageTransition() { 
+            // images stores list of all images of 
+            // class test. This is the list of images 
+            // that we are going to iterate 
+            var images = document.getElementsByClassName("test"); 
+            
+            // Set opacity of all images to 1 
+            for (var i = 0; i < images.length; ++i) { 
+                images[i].style.opacity = 1;
+            } 
+            
+            // Top stores the z-index of top most image 
+            var top = 1; 
+            
+            // cur stores the index of the image currently 
+            // on top images list contain images in the  
+            // same order they appear in HTML code  
+            /* The tag with class test which appears last 
+                will appear on top of all the images thus, 
+                cur is set to last index of images list*/
+            var cur = images.length - 1; 
+            
+            // Call changeImage function every 3 second 
+            // changeImage function changes the image 
+            setInterval(changeImage, 3000); 
+            
+            // Function to transitions from one image to other 
+            async function changeImage() { 
+                // Stores index of next image 
+                var nextImage = (1 + cur) % images.length; 
+            
+                // First set the z-index of current image to top+1 
+                // then set the z-index of nextImage to top 
+                /* Doing this make sure that the image below 
+                    the current image is nextImage*/
+                // if this is not done then during transition 
+                // we might see some other image appearing 
+                // when we change opacity of the current image 
+                images[cur].style.zIndex = top + 1; 
+                images[nextImage].style.zIndex = top; 
+            
+                // await is used to make sure 
+                // the program waits till transition() 
+                // is completed 
+                // before executing the next line of code 
+                await transition(); 
+            
+                // Now, the transition function is completed 
+                // thus, we can say that the opacity of the 
+                // current image is now 0 
+            
+                // Set the z-index of current image to top 
+                images[cur].style.zIndex = top; 
+            
+                // Set the z-index of nextImage to top+1 
+                images[nextImage].style.zIndex = top + 1; 
+            
+                // Increment top 
+                top = top + 1; 
+            
+                // Change opacity of current image back to 1 
+                // since zIndex of current is less than zIndex 
+                // of nextImage 
+                /* changing it's opacity back to 1 will not 
+                    make the image appear again*/
+                images[cur].style.opacity = 1; 
+            
+                // Set cur to nextImage 
+                cur = nextImage; 
+            } 
+            
+            /* This function changes the opacity of 
+            current image at regular intervals*/
+            function transition() { 
+                return new Promise(function (resolve, reject) { 
+                    // del is the value by which opacity is 
+                    // decreased every interval 
+                    var del = 0.01; 
+            
+                    // id stores ID of setInterval 
+                    // this ID will be used later 
+                    // to clear/stop setInterval 
+                    // after we are done changing opacity 
+                    var id = setInterval(changeOpacity, 10); 
+            
+                    // changeOpacity() decreasing opacity of 
+                    // current image by del 
+                    // when opacity reaches to 0, we stops/clears 
+                    // the setInterval and resolve the function 
+                    function changeOpacity() { 
+                        images[cur].style.opacity -= del; 
+                        if (images[cur].style.opacity <= 0) { 
+                            clearInterval(id); 
+                            resolve(); 
+                        } 
+                    } 
+                }) 
+            } 
+        }
+    </script>
+<!--End Slide show-->
 
      <!-- Link javascript for search bar 
      <script src="style/search.js"></script
@@ -66,7 +186,7 @@
         <div class= "bpm">
             <h2><center>Black Panther Movement</center></h2>
             <div class="bpmimg">
-                <a href="bpm.html"> <center><img src="../starterimg/bpp.png" alt="Black Panther Movement"></center> </a>
+                <a href="bpm.html"> <center><img src="../starterimg/bpp.png" alt="Black Panther Movement"></center></a>
             </div>
         </div>
         <!-- Black Women Stereotypes -->
@@ -129,7 +249,7 @@
         <a href="rian.html"> <center><u>Website Creator</u></center> </a>
     </div>
 
-<!-- Feedback Form -->
+<!-- Feedback Form
     <div class="form">
         <form method="POST" class = "gform" data-email = "rian.watson32@gmail.com"
         action="https://script.google.com/macros/s/AKfycbw-K4iJUZvItfxACRthATm8HbiWKB3ZuVqajwFODp9NFVB3Cbq3mn7bCX1CJbcFjHTYxA/exec">
@@ -145,13 +265,13 @@
                         Email <input type = "text" name = "ID" placeholder="Enter your email address" required="required">
                     </p>
                 </div>
-                <!--For the message box-->
+                <!--For the message box
                     <p>
                         Message
                     </p>
                     <textarea id=”ContactCommentt” type ="text" rows=”6″ cols=”20″ placeholder="Enter your message" required="required"></textarea>
 
-                <!--Submit button-->
+                <!--Submit button
                     <p>
                     <input type = "submit" name = "Submit" value = "Submit" />
                     </p>
