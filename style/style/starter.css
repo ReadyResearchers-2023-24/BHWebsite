@@ -47,12 +47,17 @@
 .topbar a:hover {
     border-bottom: 3px solid green;
     color: black;
-  }
+}
   
 .topbar a.active {
     background-color: red;
     color: white;
-  }
+}
+
+.topbar a.form {
+    background-color: rgba(140, 210, 152, 0.598);
+    color: white;
+}
 
 /*end for top bar*/
 
@@ -67,7 +72,7 @@ input[type=text] {
     text-align: center;
 }
 
-.scroll-image2 {
+.img {
     position: absolute; 
     left: 400px;
 }

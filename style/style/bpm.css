@@ -10,38 +10,31 @@ h2 {
     text-align: center;
 }
 
-/*for tab bar*/
-.search {
+/* top bar*/
+.topbar {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.scroll-container-topic {
-    background-color: #333;
     overflow: auto;
+    background-color: #333;
     white-space: nowrap;
-    padding: 10px;
-    margin: 0;
-    position: relative;
 }
 
-.search a {
-    float: left;
-    color: #f2f2f2;
+.topbar a {
+    display: inline-block;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
-    font-size: 14px;
 }
-.search a:hover {
+.topbar a:hover {
     border-bottom: 3px solid green;
     color: black;
-  }
+}
   
-.search a.active {
+.topbar a.active {
     background-color: red;
     color: white;
-  }
+}
 /*End for tab bar*/
 
 /*Side bar*/
