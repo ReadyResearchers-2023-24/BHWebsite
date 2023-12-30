@@ -156,6 +156,11 @@ input[type=text] {
     width:1350px;
 }
 /* end for Feedback form*/
+.rian {
+    border-radius: 50%;
+    width: 200px;
+}
+   
 
 
 /*Change in screen layout*/
