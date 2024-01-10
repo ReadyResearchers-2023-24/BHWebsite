@@ -4,42 +4,78 @@
     <link href = "style/rian.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Search Bar-->
-    <div class = "search">
-      <a class="active" href="starter.html">Home</a>
-      <a href="#1619">1619</a>
-      <a href="#Antebellum South">Antebellum South</a>
-      <a href="bpm.html">Black Panther Movement</a>
-      <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
-      <a href="#Cruel Tools">Cruel Tools</a>
-      <a href="#Harriet Tubman">Harriet Tubman</a>
-      <a href="#Mansa Musa">Mansa Musa</a>
-      <a href="#Pan-African Flag">Pan-African Flag</a>
-      <a href="#Sarah Baartman">Sarah Baartman</a>
-      <a href="#Slave Trade">Slave Trade</a>
-  </div>
-  
+    <!--Background music 
+                <embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
+        -->
+<!--Sidebar-->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn"
+          onclick="closeNav()">
+          
+      </a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="active" href="starter.html">Home</a>
+            <a href="#1619">1619</a>
+            <a href="#Antebellum South">Antebellum South</a>
+            <a href="bpm.html">Black Panther Movement</a>
+            <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
+            <a href="#Cruel Tools">Cruel Tools</a>
+            <a href="#Harriet Tubman">Harriet Tubman</a>
+            <a href="#Origin of Slavery">Origin of Slavery</a>
+            <a href="#Pan-African Flag">Pan-African Flag</a>
+            <a href="#Sarah Baartman">Sarah Baartman</a>
+            <a href="#Slave Trade">Slave Trade</a>
+            <a href="#Willie Lynch">Willie Lynch</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;
+        </button>
+      </div>
+      <script>
+        function openNav() {
+            document.getElementById(
+                "mySidebar").style.width = "200px";
+            document.getElementById(
+                "main").style.marginLeft = "200px";
+        }
+        /* Set the width of the sidebar to 0
+        and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById(
+                "mySidebar").style.width = "0";
+            document.getElementById(
+                "main").style.marginLeft = "0";
+        }
+      </script>
+      <!--end for Sidebar-->
+
+      <!-- tab Bar-->
+      <div class = "topbar">
+        <a class="active" href="starter.html">Home</a>
+        <a href="#1619">1619</a>
+        <a href="#Antebellum South">Antebellum South</a>
+        <a href="bpm.html">Black Panther Movement</a>
+        <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
+        <a href="#Cruel Tools">Cruel Tools</a>
+        <a href="#Harriet Tubman">Harriet Tubman</a>
+        <a href="#Mansa Musa">Mansa Musa</a>
+        <a href="#Pan-African Flag">Pan-African Flag</a>
+        <a href="#Sarah Baartman">Sarah Baartman</a>
+        <a href="#Slave Trade">Slave Trade</a>
+      </div>
+     <!-- end for tab Bar-->
+
     <!--Heading top page-->
     <div id = "heading">
       <h1><u>Rian Watson</u></h1>
     </div>
-
-    <div id = "wrapper">
-        <!-- 1st col 
-        <div class= "rian">
-          <img src="../rianimg/rian.jpg" alt="rian">
-        </div>-->
-
-        <!--About Me-->
-        <div class="me">
-            <h3><center>About Me</center></h3>
-            <p>My name is Rian Watson, I am from Pittsburgh, PA and a senior at Allegheny College 
-            in Meadville, PA majoring in Computer Science minoring in Black Studies. I created this website
-            for my senior project and I choose to create a website because I am interested in web development
-            and/or UI/UX design as a carrer. Some other projects I have done is a cooking website for a
-            catering business name BoomGrillx and created my portfolio</p>
-        <!--Motivation-->
-          <h3><center>Motivation</center></h3>
+      <div class = "grid-container">
+        <div class="Photo1"><img src="../photos/rianimg/rian.jpg" alt=""></div>
+        <div class="Content1"><p>My name is Rian Watson, I am from Pittsburgh, PA and a senior at Allegheny College 
+          in Meadville, PA majoring in Computer Science minoring in Black Studies. I created this website
+          for my senior project and I choose to create a website because I am interested in web development
+          and/or UI/UX design as a carrer. Some other projects I have done is a cooking website for a
+          catering business name BoomGrillx and created my portfolio</p>
           <p>The motivation for this project is to help not only the Black community, but 
             all communities learn about Black history and that there is more to it than just enslavement. 
             This website will teach people facts and information that are not taught in schools so that 
@@ -50,6 +86,12 @@
             make this as much information as possible by putting non-well-known facts about Black history 
             within the website.</p>
         </div>
+        <div class="Content2">3</div>  
+        <div class="Photo2">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
     </div>
   </body>
 </html>

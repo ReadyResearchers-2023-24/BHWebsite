@@ -1,27 +1,7 @@
-/* About Rian */
-html {
-    background:grey;
+/*Cruel Tools*/
+body {
+    background: grey;
 }
-
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 32px
-}
-
-
-#heading {
-    text-align: center;
-    background: sienna; /*sienna;*/
-}
-
-#headshot {
-    width: 40%;
-    height: 40%;
-}
-
 /* top bar*/
 .topbar {
     margin: 0;
@@ -116,14 +96,55 @@ sidebar is opened */
 }
 /*Side bar*/
 
-#wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 5px;
+/*Photo gallary*/
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
     padding: 10px;
-    margin: 0 auto;
-    grid-auto-rows: minmax(10px, auto);
-    max-width: 95vw;
+    margin: 0;
+    position: relative;
+
+  }
+
+div.scroll-container img {
+    padding: 10px;
+  }
+
+  /* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+/*End Photo gallary*/
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.ofs1 {
+    height: auto;
+    width: 100%;
 }
 
 /*Content grid*/
@@ -138,119 +159,4 @@ sidebar is opened */
     text-align: center;
     padding: 20px 0;
     font-size: 19px;
-  }
-
-.rian {
-
-}
-
-#info {
-    text-align: center;
-    list-style-position: inside;
-}
-
-#photo{
-    text-align: center;
-    border: 5px green;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-/*colums all together
-#wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto auto; 
-    grid-template-rows: 33% 33% 33%;
-    text-align: center;
-}*/
-
-/*colum 1*/
-/*#list {
-    float:left;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-}*/
-
-/*colum 2*/
-/*#info {
-    float:left;
-    width:180px;
-    margin-left:20px;
-}*/
-
-/*colum 3*/
-/*
-#headshot {
-    float:right;
-    width:180px;
-    position: fixed
-}*/
-
-
-
-/*
-#column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px;
-    flex: 50%;
-    text-align: center;
-}
-
-#row {
-    display: flex;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.left {
-    width: 25%;
-}
-
-.right {
-    width: 25%;
-    
-}
-.column {
-    float: left;
-}
-
-.middle {
-    width: 50%;
-}
-
-*/
-.logo {
-    width: 4px;
-    height: 20px;
-}
-
-/*
-1. Create 3 colums
-2. Make the board number elements clickable
-3. Resize headshot picture and place in the 3rd column
-4. Make board and headshot stay on screen wven when scrolling
-
-Do a 3x3 grid make it fixed.
-*/
-
-
-/* Responsive layout - when the screen is less than 600px wide, 
-make the two columns stack on top of each other instead of next to 
-each other */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-    #topics {
-    }
   }
