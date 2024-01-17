@@ -181,14 +181,11 @@ div.text{
 }
 
 /*Round the pictures*/
-div.reference img {
-    border-radius: 20%;
+.bottom img{
+    width: 200px;
 }
-div.rian img {
-    border-radius: 20%;
-}
-div.form img {
-    border-radius: 20%;
+.circular--square {
+    border-radius: 50%;
 }
 /*End of bottom*/
 
