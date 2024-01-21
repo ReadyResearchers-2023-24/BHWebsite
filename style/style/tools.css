@@ -155,6 +155,7 @@ h1 {
     grid-gap: 10px;
     background-color: grey;
 }
+
 .grid-container > div {
     text-align: center;
     padding: 20px 0;
