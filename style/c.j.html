@@ -1,28 +1,93 @@
-<link href = "style/cj.css" rel="stylesheet">
-
-<!-- tab Bar-->
-<div class="topnav" id="myTopnav">
-    <a href="starter.html" class="active">Home</a>
-    <!--People-->
-    <div class="dropdown">
-      <button class="dropbtn">People 
-        <i class="fa fa-caret-down"></i>
+<!--Madam C.J. Walker-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style/cj.css" rel="stylesheet">
+        <title>Madam C.J. Walker</title>
+    </head>
+    <body>
+<!--Sidebar-->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn"
+          onclick="closeNav()">
+      </a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a class="active" href="starter.html">Home</a>
+          <a href="#1619">1619</a>
+          <a href="#Antebellum South">Antebellum South</a>
+          <a href="bpm.html">Black Panther Movement</a>
+          <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
+          <a href="#Cruel Tools">Cruel Tools</a>
+          <a href="#Harriet Tubman">Harriet Tubman</a>
+          <a href="#Origin of Slavery">Origin of Slavery</a>
+          <a href="#Pan-African Flag">Pan-African Flag</a>
+          <a href="#Sarah Baartman">Sarah Baartman</a>
+          <a href="#Slave Trade">Slave Trade</a>
+          <a href="#Willie Lynch">Willie Lynch</a>
+    </div>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776;
       </button>
-      <div class="dropdown-content">
-          <a href="emmett.html">Emmett Till</a>
-        <a href="harriet.html">Harriet Tubman</a>
-        <a href="c.j.html">Madam C. J. Walker</a>
-      </div>
-      <!--People-->
-      <div class="dropdown">
-        <button class="dropbtn">Events 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="emmett.html">Emmett Till</a>
-          <a href="harriet.html">Harriet Tubman</a>
-          <a href="c.j.html">Madam C. J. Walker</a>
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById(
+              "mySidebar").style.width = "200px";
+          document.getElementById(
+              "main").style.marginLeft = "200px";
+      }
+      /* Set the width of the sidebar to 0
+      and the left margin of the page content to 0 */
+      function closeNav() {
+          document.getElementById(
+              "mySidebar").style.width = "0";
+          document.getElementById(
+              "main").style.marginLeft = "0";
+      }
+    </script>
+<!--end for Sidebar-->
+<!-- Topic Bar-->
+        <div class = "search">
+            <a class="active" href="starter.html">Home</a>
+            <a href="#1619">1619</a>
+            <a href="#Antebellum South">Antebellum South</a>
+            <a href="bpm.html">Black Panther Movement</a>
+            <a href="#Black Women Stereotypes">Black Women Stereotypes</a>
+            <a href="#Cruel Tools">Cruel Tools</a>
+            <a href="#Harriet Tubman">Harriet Tubman</a>
+            <a href="#Mansa Musa">Mansa Musa</a>
+            <a href="#Pan-African Flag">Pan-African Flag</a>
+            <a href="#Sarah Baartman">Sarah Baartman</a>
+            <a href="#Slave Trade">Slave Trade</a>
         </div>
-    </div> 
-    <a href="#about">About</a>
-  </div>
+        <div class = "heading">
+            <h1 style="font-family: fantasy">Madam C.J. Walker</h1>
+        </div>
+        <div class = "pafimg">
+            <img src = "../pafimg/paf.jpg" alt = "Top PAF img">
+        </div>
+<!-- End of Topic Bar-->
+
+<!--Timeline-->
+        <div class="timeline">
+            <div class="container left">
+            <div class="content">
+                <h2>2016</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+            </div>
+            <div class="container right">
+            <div class="content">
+                <h2>2016</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+            </div>
+            <div class="container left">
+            <div class="content">
+                <h2>2016</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

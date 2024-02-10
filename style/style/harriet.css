@@ -8,7 +8,7 @@ h2 {
     text-align: center;
 }
 
-/*topic bar*/
+/*for search bar*/
 .search {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +35,7 @@ h2 {
     background-color: red;
     color: white;
   }
-/*end of topic bar*/
+/*for search bar*/
 
 /*Grid for content*/
 * {
@@ -172,3 +172,4 @@ h2 {
       left: 0%;
     }
   }
+
