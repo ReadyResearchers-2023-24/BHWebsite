@@ -1,3 +1,30 @@
+/* top bar*/
+.topbar {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+  background-color: #333;
+  white-space: nowrap;
+}
+
+.topbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.topbar a:hover {
+  border-bottom: 3px solid green;
+  color: black;
+}
+
+.topbar a.active {
+  background-color: red;
+  color: white;
+}
+/*End for tab bar*/
+
 * {
   box-sizing: border-box;
 }

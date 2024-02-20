@@ -250,6 +250,10 @@ div.text{
 }
 
 /*Round the pictures*/
+.bottom{
+    float: right 20px;
+}
+
 .bottom img{
     width: 100px;
 }
@@ -257,19 +261,20 @@ div.text{
     border-radius: 50%;
 }
 
-    /* Feedback form*/
+/* Feedback form*/
 .form {
     font-family: Roboto;
     border-radius: 5px;
     padding: 1px 30px;
+    color: white;
 }
 
 .boxn{
-    width:1600px;
+    width:1700px;
 }
 
 .boxe{
-    width:1350px;
+    width:1450px;
 }
 /*End of bottom*/
    

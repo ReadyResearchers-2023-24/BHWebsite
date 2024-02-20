@@ -222,6 +222,9 @@ sidebar is opened */
     background-color: white;
     position: relative;
     border-radius: 6px;
+    /*Add scroll bar and lenth of it in timeline tab*/
+    overflow-y: scroll;
+    max-height: 70vh;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
