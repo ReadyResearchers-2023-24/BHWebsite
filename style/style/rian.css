@@ -1,8 +1,4 @@
 /* About Rian */
-html {
-    background:grey;
-}
-
 h1 {
     font-size: 40px;
 }
@@ -132,7 +128,7 @@ sidebar is opened */
     grid-template-columns: auto auto;
     grid-template-rows: 50% 50%;
     grid-gap: 10px;
-    background-color: grey;
+    background-color: #808080;
 }
 .grid-container > div {
     text-align: center;
@@ -157,6 +153,74 @@ sidebar is opened */
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
+/*Bottom*/
+div.bottom {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #7e8688e5;
+}
+/*Text over pictures*/
+div.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*Mouse hover ov img*/
+.rian:hover .overlay {
+    opacity: 1;
+}
+
+/*Round the pictures*/
+.bottom{
+    float: right 20px;
+}
+
+.bottom img{
+    width: 100px;
+}
+.circular--square {
+    border-radius: 50%;
+}
+
+/* Feedback form*/
+.form {
+    font-family: Roboto;
+    border-radius: 5px;
+    padding: 1px 30px;
+    color: white;
+}
+
+.boxn{
+    width:1700px;
+}
+
+.boxe{
+    width:1450px;
+}
+/*End of bottom*/
 
 /*colums all together
 #wrapper {
