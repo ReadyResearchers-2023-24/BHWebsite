@@ -1,4 +1,7 @@
 /* About Rian */
+html{
+    background-color: #474e5d;
+}
 h1 {
     font-size: 40px;
 }
@@ -95,7 +98,7 @@ button at top right corner */
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: white;
+    background-color: #474e5d;
     color: black;
     padding: 10px 15px;
     border: none;
@@ -129,7 +132,6 @@ sidebar is opened */
     grid-template-columns: auto auto;
     grid-template-rows: 50% 50%;
     grid-gap: 10px;
-    background-color: #808080;
 }
 .grid-container > div {
     text-align: center;
