@@ -7,8 +7,7 @@
   + [Other Projects](#Other-Projects)
 * [Technical Details](#Technical-Details)
 * [Languages Used](#Languages-Used)
-* [Accessing the Assignment](#Accessing-the-Assignment)
-* [Installing Python](#Installing-Python)
+* [Accessing the Website](#Accessing-the-Website)
 * [Future Plans/Ideas](#Future-Plans/Ideas)
 
 ## Intro/Motivation
@@ -34,11 +33,11 @@ The Black Panther Movement page has a tab bar at the very top and under it, a ti
 
 - `HTML` --> Input the information onto the site.
 - `CSS` --> For styling and positioning
-- `Javascript` and/or `Python` --> For functionalities
+- `Javascript` --> For functionalities
 
-## Accessing the Assignment
+## Accessing the Website
 
-To access this website you should be in the GitHub repository with a name
+To access this website you should be in the GitHub repository titled
 `ReadyResearchers-2023-24/BHWebsite`
 Click the "Clone or download" button that is green and, after ensuring that you have selected "Clone with SSH", please copy this command to your clipboard:
 `git@github.com:ReadyResearchers-2023-24/BHWebsite.git`
@@ -48,29 +47,9 @@ git clone git@github.com:ReadyResearchers-2023-24/BHWebsite.git
 ```
 Then press Enter/Return.
 
-Next, you can type the either `ls` (on either MacOS or Linux) or `dir` (on Windows 10 Pro or Windows 10 Enterprise) and see that there are no filesAfter this command finishes, you can use `cd` to change into the new directory. If you want to "go back" one directory from your current location, then you can type the command `cd ..`. Finally, please continue to use the cd and ls commands to explore the files that you automatically downloaded from GitHub.
-
-## Installing Python
-
-If you have not done so already, then, in order to implement a full-fledge
-Python program, you need to install the [Poetry
-tool](https://python-poetry.org/docs/) for dependency management and packaging
-of Python programs. After ensuring that you have Python 3.10 installed on your
-laptop through Pyenv by typing in the command `python --version` or `python3 --version`, please follow the installation instructions for Poetry.
-For instance, you are using either MacOS or Linux you need to type the
-following command in your terminal window `curl -sSL
-https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py |
-python`. Importantly, this command will only work if you have already installed
-a program called `curl`. If you are using Windows 10 Pro then you will need to
-follow the PowerShell installation instructions on Poetry's web site.
-
-To access the website, you first will go into the style folder then you will see three HTML files, bpm, rian, and starter. You then want to click on the starter.html file which will lead you to the home page of the website.
+Next, you can type either `ls` (on either MacOS or Linux) or `dir` (on Windows 10 Pro or Windows 10 Enterprise). From there `cd` into the docs file. Once you enter into that file you can see the files `stlye`, `img` and `HTML` files. Enter into the `index.html` file to enter into the home page. You can use `cd` to change into the new directory. If you want to "go back" one directory from your current location, then you can type the command `cd ..`. Finally, please continue to use the cd and ls commands to explore the files that you automatically downloaded from GitHub.
 
 ## Future Plans/Ideas
 
-- Build a search engine
-- Further website design
-- Create more functionalties
-- Add features for engagement (e.g. videos, quizes, games)
-- Add Media Queries
-- Work on feedback form
+- Add features for engagement (e.g. topic section with subtopics and/or search bar)
+- Add Media Queries for mobile responsiveness
